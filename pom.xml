@@ -7,6 +7,11 @@
     <version>2.0</version>
     <packaging>jar</packaging>
 
+    <description>
+        Modified version of https://github.com/stleary/JSON-java with _ordered_ fields in JSONObjects.
+        Version 2.0 differs from 1.0 by map structure for json fields: linked VS tree.
+    </description>
+
     <build>
         <plugins>
             <plugin>
